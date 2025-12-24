@@ -1,4 +1,5 @@
 import Image from "next/image";
+import LiffProfile from "./components/LiffProfile";
 
 export default function Home() {
   return (
@@ -58,6 +59,9 @@ export default function Home() {
           >
             Documentation
           </a>
+        </div>
+        <div className="mt-8">
+          <LiffProfile />
         </div>
       </main>
     </div>
